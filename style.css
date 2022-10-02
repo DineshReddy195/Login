@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://lh5.googleusercontent.com/-YBpVvAXmrUEDmdehHY4JLm4KsyyZGvuBn93qjLj_aDK8uLO10383RoiRvOm_biike2pplFuMnUbRPRmczHzoi3GZ3U5sYerCPC2Jrx2I4Rr1tqLonwm6uv88WnG2j88SA=w740");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Philosopher', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 350px;
+    height: 400px;
+    background: #000;
+    opacity: 0.7;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: black;
+    padding: 0px 30px;
+}
+h2{
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form input[type="email"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.form input[type="submit"]{
+    border:1px solid red;
+    outline: none;
+    height: 40px;
+    background-color: #000;
+    color: red;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.form a{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: white;
+}
